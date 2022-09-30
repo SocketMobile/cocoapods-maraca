@@ -1,8 +1,4 @@
-# Maraca
-
-[![Version](https://img.shields.io/cocoapods/v/Maraca.svg?style=flat)](https://cocoapods.org/pods/Maraca)
-[![License](https://img.shields.io/cocoapods/l/Maraca.svg?style=flat)](https://cocoapods.org/pods/Maraca)
-[![Platform](https://img.shields.io/cocoapods/p/Maraca.svg?style=flat)](https://cocoapods.org/pods/Maraca)
+# Maraca Version 1.0.9 - Cocoapods
 
 Maraca establishes connections between your iOS application using our [iOS CaptureSDK](https://github.com/SocketMobile/cocoapods-capturesdk) and a web application using our [CaptureJS SDK](https://docs.socketmobile.com/capturejs/en/latest/gettingStarted.html). This enables the web application to connect with our scanners and NFC readers with the same flexibilty that our iOS SDK provides.
 
@@ -87,11 +83,11 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Installation
 
-cocoapods-maraca is available through [CocoaPods](https://cocoapods.org). To install
+Maraca is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'Maraca'
+pod 'MaracaPod'
 ```
 
 ## License

@@ -1,0 +1,24 @@
+PODS:
+  - CaptureSDK (1.5.2)
+  - MaracaPod (1.0.9):
+    - CaptureSDK (~> 1.5)
+
+DEPENDENCIES:
+  - CaptureSDK (~> 1.5)
+  - MaracaPod (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - CaptureSDK
+
+EXTERNAL SOURCES:
+  MaracaPod:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CaptureSDK: d4af475179be4db4bc02e50bdfd864c4995c0ace
+  MaracaPod: 180849f266d0d69db53757029151cfe97e1fb737
+
+PODFILE CHECKSUM: 43308b1b803812c605f543be635b34214e0f1e94
+
+COCOAPODS: 1.11.3

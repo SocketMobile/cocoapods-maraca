@@ -1,7 +1,8 @@
-## [Version 1.0.7](https://github.com/SocketMobile/cocoapods-maraca/releases/tag/1.0.7)
+## [Version 1.0.9](https://github.com/SocketMobile/cocoapods-maraca/releases/tag/1.0.9)
 ### New
-* Changed the name to `cocoapods-maraca` along with the url https://github.com/SocketMobile/cocoapods-maraca
+* Changed the name to `MaracaPod` along with the url https://github.com/SocketMobile/cocoapods-maraca
 * Updated to support latest version of new CaptureSDK: version `1.5`
+* Maraca is also a Swift Package now. You can find it here: [https://github.com/SocketMobile/swift-package-maraca](https://github.com/SocketMobile/swift-package-maraca)
 
 ## [Version 1.0.6](https://github.com/SocketMobile/Maraca/releases/tag/1.0.6)
 ### New
