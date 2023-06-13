@@ -162,7 +162,7 @@ extension ActiveClientManager {
                     MaracaConstants.Keys.type.rawValue : SKTCaptureEventDataType.byte.rawValue,
                     MaracaConstants.Keys.value.rawValue : powerState.rawValue
                 ]
-            ]
+            ] as [String : Any]
         ]
         
         client.notifyWebpage(with: jsonRpc)
@@ -182,7 +182,7 @@ extension ActiveClientManager {
                     MaracaConstants.Keys.type.rawValue : SKTCaptureEventDataType.byte.rawValue,
                     MaracaConstants.Keys.value.rawValue : batteryLevel
                 ]
-            ]
+            ] as [String : Any]
         ]
         
         client.notifyWebpage(with: jsonRpc)
@@ -229,9 +229,9 @@ extension ActiveClientManager {
                         MaracaConstants.Keys.guid.rawValue : deviceGuid,
                         MaracaConstants.Keys.name.rawValue : deviceName,
                         MaracaConstants.Keys.type.rawValue : device.deviceInfo.deviceType.rawValue
-                    ]
-                ]
-            ]
+                    ] as [String : Any]
+                ] as [String : Any]
+            ] as [String : Any]
         ]
       
         client.notifyWebpage(with: jsonRpc)
@@ -284,9 +284,9 @@ extension ActiveClientManager {
                         MaracaConstants.Keys.data.rawValue : dataAsIntegerArray,
                         MaracaConstants.Keys.id.rawValue : dataSourceId,
                         MaracaConstants.Keys.name.rawValue : dataSourceName
-                    ]
-                ]
-            ]
+                    ] as [String : Any]
+                ] as [String : Any]
+            ] as [String : Any]
         ]
        
         client.notifyWebpage(with: jsonRpc)
@@ -307,7 +307,7 @@ extension ActiveClientManager {
                     MaracaConstants.Keys.value.rawValue : buttonsState.rawValue,
                     
                 ]
-            ]
+            ] as [String : Any]
         ]
         
         client.notifyWebpage(with: jsonRpc)

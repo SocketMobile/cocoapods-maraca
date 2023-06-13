@@ -5,12 +5,11 @@ source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
 
 target 'Maraca_Example' do
-  pod 'CaptureSDK', '~>1.5'
   pod 'MaracaPod', :path => '../'
-
+  
   target 'Maraca_Tests' do
     inherit! :search_paths
-
     
   end
+  
 end

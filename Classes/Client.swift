@@ -141,8 +141,8 @@ extension Client {
                     MaracaConstants.Keys.id.rawValue: SKTCaptureEventID.deviceOwnership.rawValue,
                     MaracaConstants.Keys.type.rawValue: SKTCaptureEventDataType.string.rawValue,
                     MaracaConstants.Keys.value.rawValue: (isOwned ? self.ownershipId : Client.disownedBlankId)
-                ]
-            ]
+                ] as [String : Any]
+            ] as [String : Any]
         ]
         notifyWebpage(with: responseJson)
     }

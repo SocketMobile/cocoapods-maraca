@@ -1,5 +1,5 @@
 import XCTest
-import Maraca
+import MaracaPod
 
 class Tests: XCTestCase {
     
