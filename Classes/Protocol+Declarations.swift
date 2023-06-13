@@ -355,7 +355,7 @@ extension SKTCaptureProperty {
                 MaracaConstants.Keys.status.rawValue: dataSource.status.rawValue,
                 MaracaConstants.Keys.name.rawValue: dataSourceName,
                 MaracaConstants.Keys.flags.rawValue: dataSource.flags.rawValue
-            ]
+            ] as [String : Any]
         case .notApplicable, .object, .enum:
             throw MaracaError.propertyTypeNotSupported("The SKTCaptureProperty has type: \(type) which is not supported at this time")
         case .string:

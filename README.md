@@ -1,4 +1,4 @@
-# Maraca Version 1.0.9 - Cocoapods
+# Maraca Version 1.0.10 - Cocoapods
 
 Maraca establishes connections between your iOS application using our [iOS CaptureSDK](https://github.com/SocketMobile/cocoapods-capturesdk) and a web application using our [CaptureJS SDK](https://docs.socketmobile.com/capturejs/en/latest/gettingStarted.html). This enables the web application to connect with our scanners and NFC readers with the same flexibilty that our iOS SDK provides.
 
@@ -78,8 +78,6 @@ Full documentation can be found [here](https://docs.socketmobile.com/rumba/en/la
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
 
 ## Installation
 

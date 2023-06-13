@@ -128,7 +128,7 @@ class Utility {
                 MaracaConstants.Keys.data.rawValue: [
                     MaracaConstants.Keys.handle.rawValue: handle ?? -1
                 ]
-            ]
+            ] as [String : Any]
         ]
         
         if let responseId = responseId {

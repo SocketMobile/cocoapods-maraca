@@ -8,7 +8,7 @@
 
 import UIKit
 import WebKit.WKWebView
-import Maraca
+import MaracaPod
 
 class TabWebview: WKWebView {
     let uniqueIdentifier = UUID().uuidString

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MaracaPod'
-  s.version          = '1.0.9'
+  s.version          = '1.0.10'
   s.summary          = 'Maraca bridges a web application with the CaptureSDK cocoapods framework.'
   s.swift_version    = '5.0'
   s.description      = <<-DESC
@@ -30,5 +30,5 @@ Use Socket Mobile barcode scanners and RFID readers and writers with your web ap
   s.pod_target_xcconfig = { 'ONLY_ACTIVE_ARCH' => 'YES' }
   s.user_target_xcconfig = { 'ONLY_ACTIVE_ARCH' => 'YES' }
   
-  s.dependency 'CaptureSDK', '~>1.5'
+  s.dependency 'CaptureSDK', '1.6.39'
 end
